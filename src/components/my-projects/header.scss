@@ -1,0 +1,16 @@
+.header{
+    color: #ffffff;
+    font-weight: normal;
+    font-size: 36px;
+    margin-top: 300px;
+    margin-left: 100px;
+}
+
+@media only screen and (max-width: 800px) {
+    .header{
+        font-size: 8vw;
+        text-align: center;
+        margin: 0 auto;
+        margin-top: 150px;
+    }
+}

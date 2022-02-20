@@ -1,0 +1,104 @@
+.project-tile{
+    display: flex;
+    flex-direction: column;
+    
+    max-height: 20vw;
+    max-width: 40vw;
+
+    margin:3vw;
+    padding-bottom: 10px;
+    transition: transform .2s;
+
+    color: white;
+
+    .project-tile-image{
+        height: 100%;
+                aspect-ratio: 16/9;
+
+    }
+
+    .project-tile-title{
+        display: inline-block;
+        max-width: fit-content;
+        font-size: 1.8vw;
+        margin: 1% 2% 0;
+    }
+
+    .project-tile-description{
+        display: inline-block;
+        max-width: fit-content;
+        font-size: 1.4vw;
+        margin: 1% 2% 0;
+    }
+}
+
+.project-tile:hover{
+    transform: scale(1.1);
+    cursor: pointer;
+}
+
+.mobile{
+
+    max-height: 20vw;
+    max-width: 40vw;
+   
+    
+    .project-tile-image{
+        height: 100%;
+        aspect-ratio: 9/16;
+
+        
+        display: block;
+        margin: 0px auto 12px;
+
+        
+    }
+
+    .project-tile-title{
+        font-size: 1.8vw;
+        max-width: 200px;
+        margin-left: 15px;
+    }
+
+    .project-tile-description{
+        font-size: 0.8vw;
+        max-width: 200px;
+        margin-left: 15px;
+    }
+}
+
+@media only screen and (max-width: 800px) {
+    .project-tile{
+        max-height: 40vw;
+        max-width: 80vw;
+    
+        margin:6vw;
+        margin-bottom: 18vw;
+
+        .project-tile-title{
+            font-size: 6vw;
+            max-width: 200px;
+            margin-left: 0px;
+        }
+    
+        .project-tile-description{
+            font-size: 3vw;
+            max-width: 200px;
+            margin-left: 0px;
+        }
+    
+    }
+
+    .mobile{
+        max-height: 70vw;
+        margin-bottom: 28vw;
+        .project-tile-title{
+            font-size: 6vw;
+
+        }
+    
+        .project-tile-description{
+            font-size: 3vw;
+        }
+    }
+}

@@ -1,0 +1,22 @@
+.navbar-menu{
+    min-width: 300px;
+    height: fit-content;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    position: absolute;
+    top: 10vh;
+    right: 20px;
+    background-color: #0F2742;
+    border-radius: 8px;
+    
+    z-index: 999;
+
+    transition: transform 200ms ease-in-out;
+    transform-origin: top left;
+}
+
+.hidden{
+    transform: scaleY(0);
+}

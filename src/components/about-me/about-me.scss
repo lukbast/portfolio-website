@@ -1,0 +1,85 @@
+.about-me{
+    margin-left: 100px;
+    margin-top: 160px;
+
+    .about-me-header{
+        color: #ffffff;
+        font-weight: normal;
+        font-size: 36px;
+        margin: 0px;
+
+    }
+
+    .about-me-field{
+        width: 80%;
+        padding: 30px;
+        margin: 50px 0px;
+        margin-left: 25px;
+
+        color: #ffffff;
+        font-size: 16px;
+        line-height: 24px;
+
+        
+
+        .about-me-field-line{
+            display: flex;
+            flex-direction: row;
+            justify-content: space-around;
+            margin-bottom: 20px;
+
+            .about-me-field-line-text{
+                width: 50vw;
+                display: block;
+            }
+    
+            .sub{
+                font-size: 14px;
+                color: #B2B2B2;
+            }
+        }
+
+        .about-me-link{
+            color: #b7daf8;
+        }
+
+        .about-me-link:visited{
+            color: #8bbdec;
+        }
+        .about-me-link:hover{
+            color: #8bbdec;
+        }
+
+        .tryhackme-link{
+            display: block;
+            width: fit-content;
+            margin: 25px;
+        }
+
+
+    }
+
+    .about-me-subheader{
+        color: #ffffff;
+        font-weight: normal;
+        font-size: 24px;
+        margin: 0px;
+        margin-left: 25px;
+
+    }
+}
+
+@media only screen and (max-width: 800px) {
+    .about-me{
+        margin-left: 10px;
+
+        .about-me-header{
+            width: fit-content;
+            margin: 0px auto;
+        }
+
+        .about-me-field{
+            margin: 0px;
+        }
+    }
+}

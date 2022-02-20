@@ -1,0 +1,42 @@
+.introduction-textbox{
+    background: transparent;
+    margin-left: 130px;
+    margin-top: 200px;
+    width: 30vw;
+
+
+    .introduction-primary{
+        font-size: 2vw;
+        color:white;
+
+    }
+
+    .introduction-secondary{
+        font-size: 1.25vw;
+        color: #B2B2B2;
+    }
+}
+
+@media only screen and (max-width: 1200px) {
+    .introduction-textbox{
+        margin-left: 80px;
+    } 
+}
+@media only screen and (max-width: 800px) {
+    .introduction-textbox{
+        margin-left: 0px;
+        margin-top: 10px;
+        text-align: center;
+
+        width: 80vw;
+    }
+
+    .introduction-textbox{
+        .introduction-primary{
+            font-size: 6vw;
+        }
+        .introduction-secondary{
+            font-size: 4vw;
+        }
+    }
+}

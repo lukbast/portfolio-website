@@ -1,0 +1,86 @@
+.popup{
+    z-index: 999;
+
+    max-height: 80vh;
+    overflow-y: scroll;
+
+    position:fixed;
+    top:15px;
+    left:0px;
+    margin: 0px 50px 0px;
+    padding: 50px;
+    background-color: #0C1D31;
+
+    color: white;
+
+    .popup-button{
+        width: fit-content;
+        margin-left: auto;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+
+        .popup-button-close{
+            transform: scaleX(0);
+            transition: transform 200ms ease 0ms;
+
+            color: white;
+            font-size: 24px;
+            font-weight: bold;
+            margin-right: 10px;
+        }
+    }
+
+    .popup-button:hover{
+        cursor: pointer;
+
+        .popup-button-close{
+            transform: scaleX(1);
+            transition: transform 200ms ease 0ms;
+        }
+    }
+
+    .popup-header{
+        width: fit-content;
+
+    }
+
+    .popup-section{
+        padding: 20px;
+
+        .popup-section-link{
+            color: #b7daf8;
+            margin: 0px 10px 0px;
+        }
+
+        .popup-section-link:visited{
+            color: #8bbdec;
+        }
+        .popup-section-link:hover{
+            color: #8bbdec;
+        }
+    }
+
+
+}
+
+@media only screen and (max-width: 800px) {
+    .popup{
+        top:0px;
+        margin: 0px;
+        min-height: 100vh;
+        max-width: 100vw;
+        padding: 0px;
+
+        .popup-button{
+            margin-top: 20px;
+            padding-right: 20px;
+        }
+
+        .popup-header{
+            padding: 20px;
+        }
+
+
+    }
+}

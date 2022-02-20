@@ -1,0 +1,49 @@
+.contact{
+    margin-left: 100px;
+    margin-top: 60px;
+    width: 80%;
+
+    .contact-header{
+        color: #ffffff;
+        font-weight: normal;
+        font-size: 36px;
+        margin: 0px;
+    }
+
+    .contact-field{
+        padding: 30px;
+        margin: 50px 0px;
+        margin-left: 25px;
+
+        color: #ffffff;
+        font-size: 20px;
+        line-height: 24px;
+
+        .contact-field-link{
+            color: #b7daf8;
+            margin: 0px 10px 0px;
+        }
+
+        .contact-field-link:visited{
+            color: #8bbdec;
+        }
+        .contact-field-link:hover{
+            color: #8bbdec;
+        }
+    }
+}
+
+@media only screen and (max-width: 800px) {
+    .contact{
+        margin-left: 10px;
+        width: 100%;
+
+        .contact-header{
+            text-align: center;
+        }
+
+        .contact-field{
+            margin-left: 0px;
+        }
+    }
+}

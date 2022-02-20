@@ -1,0 +1,31 @@
+.navbar{
+    box-sizing: border-box;
+    width: 100%;
+    height: 10%;
+    display: flex;
+    flex-direction: row-reverse;
+    align-items: center;
+    padding: 0px 50px 0px;
+    position: relative;
+
+    .buttons{
+        display: flex;
+        flex-direction: row;
+    }
+
+    .navbar-menu-toggler{
+        margin-right: 20px;
+    }
+
+    .navbar-menu-toggler:hover{
+        cursor: pointer;
+    }
+}
+
+@media only screen and (max-width: 1000px) {
+    .navbar{
+        padding: 0px;
+        padding-top: 25px;
+
+    }
+  }

@@ -1,0 +1,39 @@
+.skills{
+    margin-left: 100px;
+    margin-top: 60px;
+    width: 80%;
+
+    .skills-header{
+        color: #ffffff;
+        font-weight: normal;
+        font-size: 36px;
+        margin: 0px;
+    }
+
+    .skills-container{
+        display: flex;
+        justify-content: space-evenly;
+        flex-direction: row;
+        flex-wrap: wrap;
+
+        padding: 30px 60px;
+        margin: 50px 0px;
+        margin-left: 25px;
+
+        color: #ffffff;
+    }
+
+
+}
+
+@media only screen and (max-width: 800px) {
+    .skills{
+        width: 100%;
+        margin: 0 auto;
+        margin-top: 100px;
+
+        .skills-header{
+            text-align: center;
+        }
+    }
+}

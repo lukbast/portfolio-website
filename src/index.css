@@ -11,3 +11,16 @@ code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
     monospace;
 }
+
+html{
+  background: url("./assets/layered-waves-haikei\ \(2\).svg");
+  scroll-behavior: smooth;
+}
+
+
+@media only screen and (max-width: 800px) {
+  html{
+    background: url("./assets/layered-waves-haikei\ \(5\).svg");
+    overflow-x: hidden;
+  }
+}

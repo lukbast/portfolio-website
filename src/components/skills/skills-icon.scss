@@ -1,0 +1,22 @@
+.skills-icon{
+    height: fit-content;
+    width: fit-content;
+
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+
+    margin: 30px 20px;
+    
+
+    .skills-icon-icon{
+        height: 60px;
+        width: auto;
+    }
+
+    .skills-icon-title{
+        margin-top: 10px;
+        color: #B2B2B2;
+        font-size: 16px;
+    }
+}

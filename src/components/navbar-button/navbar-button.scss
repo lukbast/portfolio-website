@@ -1,0 +1,18 @@
+.navbar-button{
+    width: fit-content;
+    padding: 20px;
+    margin: 0px 20px 0px;
+    color: #FFFFFF;
+    font-size: 24px;
+    text-decoration: none;
+
+}
+
+@media only screen and (max-width: 600px) {
+
+  }
+
+.navbar-button:hover{
+    color: #9a51ff;
+    cursor: pointer;
+}
