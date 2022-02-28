@@ -24,3 +24,16 @@ html{
     overflow-x: hidden;
   }
 }
+
+@media only screen and (min-width: 1920px) {
+  html{
+    background: url("./assets/layered-waves-haikei-4k.svg");
+    overflow-x: hidden;
+  }
+}
+@media only screen and (min-width: 3840px) {
+  html{
+    background: url("./assets/layered-waves-haikei-10k.svg");
+    overflow-x: hidden;
+  }
+}
